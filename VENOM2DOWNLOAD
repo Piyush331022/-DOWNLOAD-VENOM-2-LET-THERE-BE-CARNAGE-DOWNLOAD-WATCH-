@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Venom 2 Movie</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+      color: #ff4d4d;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 10px 20px;
+      text-align: center;
+    }
+
+    .btn {
+      background: #ff4d4d;
+      color: #ffffff;
+      padding: 15px 30px;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ff1a1a;
+    }
+
+    .notice {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #ffcccc;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.8rem;
+      color: #cccccc;
+    }
+
+    footer a {
+      color: #ff4d4d;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Download Venom 2 Movie Now</h1>
+  <p>Click the button below to start your download of the thrilling blockbuster *Venom 2*!</p>
+
+  <button class="btn" onclick="showRedirect()">Download Now</button>
+
+  <p id="redirect-message" class="hidden">
+    Oops! The movie is not available here, but check out our homepage for other exciting content!
+  </p>
+
+  <p id="redirect-link" class="hidden">
+    <a href="https://jsklottery.in" class="btn">Visit Homepage</a>
+  </p>
+
+  <div class="notice">
+    <p>Disclaimer: This website does not host or provide any illegal or copyrighted material.</p>
+  </div>
+
+  <footer>
+    <p>Powered by <a href="https://github.com">GitHub Pages</a></p>
+  </footer>
+
+  <script>
+    function showRedirect() {
+      document.getElementById('redirect-message').classList.remove('hidden');
+      document.getElementById('redirect-link').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
